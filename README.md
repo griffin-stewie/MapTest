@@ -1,0 +1,1 @@
+[iOS6以降でのMapアプリの起動方法](http://griffin-stewie.hatenablog.com/entry/2013/02/16/131244)
