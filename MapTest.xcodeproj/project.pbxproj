@@ -18,6 +18,9 @@
 		E36CF40616A6EBB500BAC844 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36CF40516A6EBB500BAC844 /* Default-568h@2x.png */; };
 		E36CF40916A6EBB500BAC844 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36CF40716A6EBB500BAC844 /* MainStoryboard.storyboard */; };
 		E36CF40C16A6EBB500BAC844 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E36CF40B16A6EBB500BAC844 /* ViewController.m */; };
+		E36CF41316A6EBD300BAC844 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36CF41216A6EBD300BAC844 /* MapKit.framework */; };
+		E36CF41516A6EBDB00BAC844 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36CF41416A6EBDB00BAC844 /* CoreLocation.framework */; };
+		E3848A2116A9A05A009BBB5B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3848A2016A9A05A009BBB5B /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		E36CF40816A6EBB500BAC844 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E36CF40A16A6EBB500BAC844 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E36CF40B16A6EBB500BAC844 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E36CF41216A6EBD300BAC844 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E36CF41416A6EBDB00BAC844 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E3848A1916A9A008009BBB5B /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		E3848A2016A9A05A009BBB5B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3848A2116A9A05A009BBB5B /* AddressBook.framework in Frameworks */,
+				E36CF41516A6EBDB00BAC844 /* CoreLocation.framework in Frameworks */,
+				E36CF41316A6EBD300BAC844 /* MapKit.framework in Frameworks */,
 				E36CF3F016A6EBB500BAC844 /* UIKit.framework in Frameworks */,
 				E36CF3F216A6EBB500BAC844 /* Foundation.framework in Frameworks */,
 				E36CF3F416A6EBB500BAC844 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +83,10 @@
 		E36CF3EE16A6EBB500BAC844 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E3848A2016A9A05A009BBB5B /* AddressBook.framework */,
+				E3848A1916A9A008009BBB5B /* AddressBookUI.framework */,
+				E36CF41416A6EBDB00BAC844 /* CoreLocation.framework */,
+				E36CF41216A6EBD300BAC844 /* MapKit.framework */,
 				E36CF3EF16A6EBB500BAC844 /* UIKit.framework */,
 				E36CF3F116A6EBB500BAC844 /* Foundation.framework */,
 				E36CF3F316A6EBB500BAC844 /* CoreGraphics.framework */,
@@ -257,6 +271,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapTest/MapTest-Prefix.pch";
 				INFOPLIST_FILE = "MapTest/MapTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,6 +283,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapTest/MapTest-Prefix.pch";
 				INFOPLIST_FILE = "MapTest/MapTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -292,6 +308,7 @@
 				E36CF41116A6EBB500BAC844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
